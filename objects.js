@@ -37,9 +37,8 @@ console.log("The dog's name is " + dogName);
  * Q2. What breed is the cat?
  */
 
-catBreed = null;
-
-// console.log("The cat is a " + catBreed);
+catBreed = cat.breed;
+console.log("The cat is a " + catBreed);
 
 
 
