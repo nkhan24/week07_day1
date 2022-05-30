@@ -87,7 +87,7 @@ console.log(stoppingAtDurham);
 /**
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
- */
+ .*/
 
 if(stoppingAtDurham === true){
     console.log("Yay Durham!");
