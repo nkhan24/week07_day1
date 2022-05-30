@@ -50,7 +50,8 @@ console.log("The third station is " + thirdStation);
  */
 
 
-// console.log(stations);
+stations[1] = "Berwick-upon-Tweed"
+console.log(stations);
 
 
 
