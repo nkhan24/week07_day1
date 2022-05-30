@@ -19,7 +19,7 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 
-stations.splice(0,1)
+stations.shift();
 console.log(stations);
 
 
@@ -70,8 +70,8 @@ console.log(stations);
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 
-
-// console.log(stations);
+stations.splice(3,0,"Darlington");
+console.log(stations);
 
 
 
