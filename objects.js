@@ -88,9 +88,9 @@ console.log(tortoise);
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = null;
+totalPetAge = dog.age+cat.age+tortoise.age+parrot.age;
 
-// console.log("The total age of the pets is " + totalPetAge);
+console.log("The total age of the pets is " + totalPetAge);
 
 
 
