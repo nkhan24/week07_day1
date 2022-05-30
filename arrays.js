@@ -60,7 +60,8 @@ console.log(stations);
  * How did Leeds get on there? Better remove it.
  */
 
-// console.log(stations);
+ stations.splice(4,1)
+ console.log(stations);
 
 
 
@@ -68,6 +69,7 @@ console.log(stations);
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
+
 
 // console.log(stations);
 
