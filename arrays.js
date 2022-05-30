@@ -19,8 +19,8 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 
-
-// console.log(stations);
+stations.splice(0,1)
+console.log(stations);
 
 
 
@@ -29,9 +29,8 @@ console.log(stations);
  * How many stations are on the line?
  */
 
-stationCount = null;
-
-// console.log("There are " + stationCount + " stations.");
+stationCount = stations.length;
+console.log("There are " + stationCount + " stations.");
 
 
 
@@ -40,9 +39,8 @@ stationCount = null;
  * Which station is the third stop?
  */
 
-thirdStation = null;
-
-// console.log("The third station is " + thirdStation);
+thirdStation = stations[2];
+console.log("The third station is " + thirdStation);
 
 
 
@@ -50,6 +48,7 @@ thirdStation = null;
  * Q5.
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
+
 
 // console.log(stations);
 
