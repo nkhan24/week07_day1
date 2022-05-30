@@ -63,9 +63,9 @@ console.log(unitedKingdom);
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
+northernIrelandKeys = Object.keys(unitedKingdom[3]);
 
-// console.log(northernIrelandKeys);
+console.log(northernIrelandKeys);
 
 
 
